@@ -3,40 +3,48 @@ import React from "react";
 const Services = [
   {
     id: 1,
-    title: "Web Design",
-    description: "Creating visually appealing and user-friendly web design.",
+    title: "Frontend Development",
+    description:
+      "Building responsive and interactive user interfaces using React.js, HTML, CSS and JavaScript.",
   },
   {
     id: 2,
-    title: "Frontend Development",
-    description: "Building responsive and interactive user interfaces.",
+    title: "Backend Development",
+    description:
+      "Developing secure and scalable backend applications using Python and REST APIs.",
   },
   {
     id: 3,
-    title: "Backend Development",
-    description: "Developing robust server-side logic and databases.",
+    title: "Full Stack Development",
+    description:
+      "Creating complete web applications using React for frontend and Python with MySQL for backend.",
   },
   {
     id: 4,
-    title: "Full Stack Development",
-    description: "combining both frontend and backend development skills.",
+    title: "API Integration",
+    description:
+      "Integrating REST APIs and third-party services to connect frontend applications with backend systems.",
   },
   {
     id: 5,
-    title: "Content Writing",
-    description: "Writing content for your business and companies.",
+    title: "Database Management",
+    description:
+      "Designing and managing databases using MySQL for efficient data storage and retrieval.",
   },
   {
     id: 6,
-    title: "Digital Marketing",
-    description: "Promote your business with our digital marketing team.",
+    title: "Responsive Web Design",
+    description:
+      "Designing modern, mobile-friendly websites using Tailwind CSS and modern UI principles.",
   },
 ];
+
 function Service() {
   return (
     <div className="bg-black text-white py-20" id="service">
       <div className="container mx-auto px-8 md:px-16 lg:px-24">
         <h2 className="text-4xl font-bold text-center mb-12">My Services</h2>
+
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           {Services.map((service) => (
             <div
@@ -46,15 +54,18 @@ function Service() {
               <div className="text-right text-2xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-green-600 to-blue-400">
                 {service.id}
               </div>
+
               <h3 className="mt-2 text-2xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-green-400 to-blue-500">
                 {service.title}
               </h3>
+
               <p className="mt-2 text-gray-300">{service.description}</p>
+
               <a
-                href="#"
+                href="#contact"
                 className="mt-4 inline-block text-green-400 hover:text-blue-500"
               >
-                Read More
+                Contact
               </a>
             </div>
           ))}
