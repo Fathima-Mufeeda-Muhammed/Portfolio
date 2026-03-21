@@ -2,6 +2,8 @@ import React from "react";
 import TaxTowerImage from "../assets/taxtower.jpeg";
 import IndiaTaxImage from "../assets/indiatax.jpeg";
 import SplashImage from "../assets/splashshine.jpeg";
+import InstituteImage from "../assets/institute.png";
+
 
 const projects = [
   {
@@ -24,6 +26,13 @@ const projects = [
     technologies: "React.js, Python FastAPI, MySQL",
     image: SplashImage,
     link: "https://splashshinesolutions.com",
+  },
+  {
+    id: 4,
+    name: "Splash Shine Institute for Professional Skills",
+    technologies: "React.js, JavaScript, Frontend Development",
+    image: InstituteImage,
+    link: "https://splashshine-institute.vercel.app",
   },
 ];
 
