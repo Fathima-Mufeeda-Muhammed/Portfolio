@@ -1,8 +1,7 @@
 import React from "react";
 import {
-  FaFacebook,
+  FaInstagram,
   FaGithub,
-  FaTwitter,
 } from "react-icons/fa";
 
 function Footer() {
@@ -15,8 +14,7 @@ function Footer() {
           <div className="flex-1 mb-4 md:mb-0">
             <h3 className="text-2xl font-bold mb-2">Fathimathul Mufeeda</h3>
             <p className="text-gray-400">
-              Full Stack Developer based in Kerala, specializing in web and
-              software development.
+              Full Stack Developer based in Kerala, specializing in web and software development.
             </p>
           </div>
 
@@ -41,47 +39,21 @@ function Footer() {
         <div className="border-t border-gray-600 pt-4 flex flex-col md:flex-row justify-between items-center">
 
           <p className="text-gray-400">
-            © {new Date().getFullYear()} Fathimathul Mufeeda
+            © 2023 - {new Date().getFullYear()} Fathimathul Mufeeda. All Rights Reserved.
           </p>
 
           <div className="flex space-x-4 my-4 md:my-0">
-
-            <a
-              href="https://facebook.com"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="text-gray-400 hover:text-white"
-            >
-              <FaFacebook />
+            <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-white">
+              <FaInstagram />
             </a>
-
-            <a
-              href="https://twitter.com"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="text-gray-400 hover:text-white"
-            >
-              <FaTwitter />
-            </a>
-
-            <a
-              href="https://github.com/yourusername"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="text-gray-400 hover:text-white"
-            >
+            <a href="https://github.com/Fathima-Mufeeda-Muhammed" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-white">
               <FaGithub />
             </a>
-
           </div>
 
           <div className="flex space-x-4">
-            <a href="#" className="text-gray-400 hover:text-white">
-              Privacy
-            </a>
-            <a href="#" className="text-gray-400 hover:text-white">
-              Terms of Service
-            </a>
+            <a href="#" className="text-gray-400 hover:text-white">Privacy</a>
+            <a href="#" className="text-gray-400 hover:text-white">Terms of Service</a>
           </div>
 
         </div>
